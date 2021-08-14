@@ -16,6 +16,6 @@ A simple docker for easy running php sites
 `docker build . -t php-site:latest`
 
 5. Run a container with your website as a mounted volume. 
-`docker run --name awsome-website -p 8080:8080 -v /path/to/your/php/project:/var/www/html php-docker`
+`docker run --name awsome-website -p 8080:8080 -v /path/to/your/php/project:/var/www/html php-docker:latest`
 
 Thats it. Enjoy.
